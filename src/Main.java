@@ -10,7 +10,11 @@ public class Main {
 //        Lec5_Random.Lec4();
 //        Lec6_Arrays.Lec3();
 //        Lec7_StringMethod.Lec1();
-        Lec8_WrapperClass.Lec1();
+//        Lec8_WrapperClass.Lec1();
+//        Lec9_ArrayList.Lec2();
+        Lec10_Printf.Lec1();
+
+
 
         System.out.println(Color.GREEN + "Program is end!" + Color.RESET);
     }
