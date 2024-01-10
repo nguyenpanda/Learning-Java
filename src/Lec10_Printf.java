@@ -1,6 +1,8 @@
 public class Lec10_Printf {
 
     public static void Lec1() {
+        System.out.println(Color.CYAN + "Lec 10.1 - Printf" + Color.RESET);
+
         /*
         printf() =
         method to control, format, and display text to the console window

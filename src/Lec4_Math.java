@@ -5,7 +5,7 @@ public class Lec4_Math {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void Lec1() {
-        System.out.println("Lec 4.1 - Math");
+        System.out.println(Color.CYAN + "Lec 4.1 - Math");
 
         double x = 3.14;
         System.out.println("x = " + x);

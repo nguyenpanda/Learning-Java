@@ -4,7 +4,7 @@ public class Lec1_UserInput {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void Lec1() {
-        System.out.println("Lec 1.1 - Scanner");
+        System.out.println(Color.CYAN + "Lec 1.1 - Scanner" + Color.RESET);
 
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
@@ -14,7 +14,7 @@ public class Lec1_UserInput {
     }
 
     public static void Lec2() {
-        System.out.println("Lec 1.2 - Scanner");
+        System.out.println(Color.CYAN + "Lec 1.2 - Scanner" + Color.RESET);
 
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
@@ -34,7 +34,7 @@ public class Lec1_UserInput {
     }
 
     public static void Lec3() {
-        System.out.println("Lec 1.3 - Scanner");
+        System.out.println(Color.CYAN + "Lec 1.3 - Scanner" + Color.RESET);
 
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();

@@ -1,10 +1,9 @@
-import javax.swing.JOptionPane;
-import java.util.Scanner;
+import javax.swing.*;
 
 public class Lec3_GUI {
 
     public static void Lec1() {
-        System.out.println("Lec 3.1 - Graphic User Interface");
+        System.out.println(Color.CYAN + "Lec 3.1 - Graphic User Interface");
 
         String name = JOptionPane.showInputDialog("What is your name?");
         JOptionPane.showMessageDialog(null, "Hello " + name);

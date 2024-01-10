@@ -1,7 +1,7 @@
 public class Lec7_StringMethod {
 
     public static void Lec1() {
-        System.out.println("Lec 7.1 - String methods");
+        System.out.println(Color.CYAN + "Lec 7.1 - String methods\n" + Color.RESET);
 
         System.out.println("String method => " + "https://www.w3schools.com/java/java_ref_string.asp");
 

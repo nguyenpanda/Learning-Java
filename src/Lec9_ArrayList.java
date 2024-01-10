@@ -3,6 +3,8 @@ import java.util.ArrayList;
 public class Lec9_ArrayList {
 
     public static void Lec1() {
+        System.out.println(Color.CYAN + "Lec 9.1 - Array List" + Color.RESET);
+
         ArrayList<String> food = new ArrayList<String>();
 
         food.add("Cake");
@@ -20,6 +22,8 @@ public class Lec9_ArrayList {
     }
 
     public static void Lec2() {
+        System.out.println(Color.CYAN + "Lec 9.2 - Array List" + Color.RESET);
+
         ArrayList<ArrayList<String>> genre = new ArrayList<>();
 
         ArrayList<String> romantic = new ArrayList<String>();

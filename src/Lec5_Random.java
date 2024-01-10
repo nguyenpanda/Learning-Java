@@ -4,7 +4,7 @@ public class Lec5_Random {
     static Random random = new Random();
 
     public static void Lec1() {
-        System.out.println("Lec 5.1 - Random");
+        System.out.println(Color.CYAN + "Lec 5.1 - Random");
 
         for (int i = 0; i < 20; i++) {
             int x = random.nextInt();
@@ -13,7 +13,7 @@ public class Lec5_Random {
     }
 
     public static void Lec2() {
-        System.out.println("Lec 5.2 - Random");
+        System.out.println(Color.CYAN + "Lec 5.2 - Random");
 
         for (int i = 0; i < 20; i++) {
             int x = random.nextInt(9); // Random in range [0, 8]
@@ -22,7 +22,7 @@ public class Lec5_Random {
     }
 
     public static void Lec3() {
-        System.out.println("Lec 5.3 - Random");
+        System.out.println(Color.CYAN + "Lec 5.3 - Random");
 
         for (int i = 0; i < 20; i++) {
             double x = random.nextDouble(10); // Random in range [0, 10)
@@ -31,7 +31,7 @@ public class Lec5_Random {
     }
 
     public static void Lec4() {
-        System.out.println("Lec 5.4 - Random");
+        System.out.println(Color.CYAN + "Lec 5.4 - Random");
 
         for (int i = 0; i < 20; i++) {
             boolean x = random.nextBoolean();

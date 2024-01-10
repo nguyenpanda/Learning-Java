@@ -1,12 +1,12 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Lec6_Arrays {
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void Lec1() {
-        System.out.println("Lec 6.1 - Arrays");
+        System.out.println(Color.CYAN + "Lec 6.1 - Arrays");
 
         String[] name = {"Ha", "Tuong", "Nguyen"};
 
@@ -16,7 +16,7 @@ public class Lec6_Arrays {
     }
 
     public static void Lec2() {
-        System.out.println("Lec 6.2 - Arrays");
+        System.out.println(Color.CYAN + "Lec 6.2 - Arrays");
 
         Random random = new Random();
 
