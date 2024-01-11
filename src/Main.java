@@ -1,6 +1,10 @@
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedAudioFileException, LineUnavailableException, IOException {
         System.out.println(Color.GREEN + "Starting program!\033[0m" + Color.RESET);
 
 //        Lec1_UserInput.Lec1(); // 3
@@ -26,7 +30,8 @@ public class Main {
 
 //        Lec20_Exception.Lec1(); // 1
 
-        Lec21_File.Lec3(); // 3
+//        Lec21_File.Lec3(); // 3
+        Lec22_Audio.Lec1();
 
 
         System.out.println(Color.GREEN + "Program is end!" + Color.RESET);
