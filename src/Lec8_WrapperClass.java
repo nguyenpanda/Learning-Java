@@ -1,7 +1,8 @@
 public class Lec8_WrapperClass {
 
     public static void Lec1() {
-        System.out.println(Color.CYAN + "Lec 8.1 - Wrapper Class" + Color.RESET);
+        System.out.println(Color.CYAN + "Lec 8.1 - Wrapper Class" + Color.RESET
+        );
         /*
         wrapper class
 
