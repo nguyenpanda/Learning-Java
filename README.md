@@ -4,5 +4,4 @@
 
 # Remaining chapter
 
-- Lecture 8: Wrapper Class
 - Lecture 17: Interface

@@ -41,7 +41,6 @@ public class Lec22_Audio {
                     break;
                 default:
                     System.out.println("Not a valid response!");
-
             }
         }
 
